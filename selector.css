@@ -1,0 +1,34 @@
+/* universal selector */
+*{
+    background-color: aqua;
+}
+
+/* id selector (#class name) */
+#idname{
+    background-color: rebeccapurple;
+}
+
+/* class selector (.class name) */
+.classname{
+    background-color: aquamarine;
+}
+
+/* head selector */
+h1{
+    background-color: aliceblue;
+}
+
+/* p selector */
+p{
+    background-color: black;
+}
+
+/* p and p class selector */
+p.class{
+    background-color: blueviolet;
+}
+
+/* multiple class, tag, id, .etc selector */
+h1, p, .class{
+    background-color: blue;
+}
